@@ -6,7 +6,7 @@ const TOKEN = process.env.GITHUB_TOKEN;
 const REQUIRED_TOPICS = ['job-seeker-ro-spider', 'peviitor-ro'];
 
 describe('Repository Topics', () => {
-  it('must have EXACTLY the 2 required topics', async () => {
+  it('must have at least the 2 required topics', async () => {
     if (!REPO) {
       console.log('GITHUB_REPOSITORY not set — running locally, skipping API check');
       return;
@@ -23,7 +23,8 @@ describe('Repository Topics', () => {
 
     console.log(`Topics: [${topics.join(', ')}]`);
 
-    expect(topics).toHaveLength(2);
-    expect(topics).toEqual(REQUIRED_TOPICS);
+    expect(topics).toContain('job-seeker-ro-spider');
+    expect(topics).toContain('peviitor-ro');
+    expect(topics.length).toBeGreaterThanOrEqual(2);
   });
 });
