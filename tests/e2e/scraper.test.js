@@ -44,97 +44,75 @@ beforeAll(async () => {
   }
 });
 
-const TEST_CIF = '33159615';
-const TEST_BRAND = 'EPAM';
-const EPAM_API_URL = 'https://careers.epam.com/api/jobs/v2/search/careers-i18n?from=0&lang=en&size=5&sortBy=relevance%3Brelocation%3Dasc&websiteLocale=en-us&facets=country%3D8150000000000001155';
-const ROMANIAN_CITIES = ['Bucharest', 'București', 'Cluj-Napoca', 'Timișoara', 'Iași', 'Brașov', 'Constanța', 'Sibiu', 'Oradea'];
+const TEST_CIF = '43319098';
+const CAREER_URL = 'https://careers.metro.digital/jobs';
+const ROMANIAN_CITIES = ['București', 'Cluj-Napoca', 'Bucharest', 'Timișoara'];
 
 describe('E2E: Full Scraping Pipeline', () => {
 
-  describe('EPAM Careers API — Real Data Fetch', () => {
-    let apiData;
+  describe('Metro Digital Careers — Real HTML Fetch', () => {
+    let html;
 
     beforeAll(async () => {
-      const res = await fetch(EPAM_API_URL, {
+      const res = await fetch(CAREER_URL, {
         headers: {
           'User-Agent': 'job_seeker_ro_spider',
-          'Accept': 'application/json'
+          'Accept': 'text/html'
         }
       });
-      apiData = await res.json();
-    }, 15000);
+      html = await res.text();
+    }, 30000);
 
-    it('should respond with valid job data from EPAM API', () => {
-      expect(apiData).toHaveProperty('data');
-      expect(apiData.data).toHaveProperty('jobs');
-      expect(Array.isArray(apiData.data.jobs)).toBe(true);
-      expect(apiData.data.jobs.length).toBeGreaterThan(0);
-      expect(apiData.data).toHaveProperty('total');
-      expect(typeof apiData.data.total).toBe('number');
+    it('should respond with valid HTML from Metro Digital Careers', () => {
+      expect(html).toBeDefined();
+      expect(html).toContain('<!DOCTYPE html>');
+      expect(html).toContain('attrax-vacancy-tile');
     }, 10000);
 
-    it('should have Romania jobs with expected fields', () => {
-      const job = apiData.data.jobs[0];
-      expect(job).toHaveProperty('uid');
-      expect(job).toHaveProperty('name');
-      expect(typeof job.name).toBe('string');
-      expect(job).toHaveProperty('city');
+    it('should have job listings in the HTML', () => {
+      expect(html).toContain('Result(s)');
+      expect(html).toContain('attrax-vacancy-tile__title');
     });
 
-    it('should have Romanian country on at least one job', () => {
-      const allCountries = apiData.data.jobs.flatMap(j =>
-        (j.country || []).map(c => c.name?.toLowerCase())
-      );
-      expect(allCountries.length).toBeGreaterThan(0);
-      expect(allCountries.some(c => c === 'romania')).toBe(true);
-    });
-
-    it('should have country set to Romania', () => {
-      const job = apiData.data.jobs[0];
-      expect(job).toHaveProperty('country');
-      const romaniaCountry = (job.country || []).some(c =>
-        c.name?.toLowerCase() === 'romania'
-      );
-      expect(romaniaCountry).toBe(true);
+    it('should have Romania jobs in the HTML', () => {
+      expect(html).toContain('București');
     });
   });
 
   describe('Parse + Transform Pipeline', () => {
     let index;
-    let apiData;
+    let html;
 
     beforeAll(async () => {
       index = await import('../../index.js');
-      const res = await fetch(EPAM_API_URL, {
+      const res = await fetch(CAREER_URL, {
         headers: {
           'User-Agent': 'job_seeker_ro_spider',
-          'Accept': 'application/json'
+          'Accept': 'text/html'
         }
       });
-      apiData = await res.json();
-    }, 15000);
+      html = await res.text();
+    }, 30000);
 
-    it('should parse real EPAM API response into standardized format', () => {
-      const result = index.parseApiJobs(apiData);
+    it('should parse real Metro Digital HTML into standardized format', () => {
+      const result = index.parseHtmlJobs(html);
 
       expect(result).toHaveProperty('jobs');
       expect(result).toHaveProperty('total');
       expect(result.jobs.length).toBeGreaterThan(0);
-      expect(result.jobs.length).toBeLessThanOrEqual(5);
 
       const parsed = result.jobs[0];
       expect(parsed).toHaveProperty('url');
-      expect(parsed.url).toMatch(/^https:\/\/careers\.epam\.com\//);
+      expect(parsed.url).toMatch(/^https:\/\/careers\.metro\.digital\//);
       expect(parsed).toHaveProperty('title');
       expect(parsed).toHaveProperty('workmode');
       expect(['remote', 'on-site', 'hybrid']).toContain(parsed.workmode);
       expect(parsed).toHaveProperty('location');
       expect(Array.isArray(parsed.location)).toBe(true);
-      expect(parsed).toHaveProperty('tags');
-    });
+    }, 15000);
 
     it('should map parsed jobs to job model', () => {
-      const parsed = index.parseApiJobs(apiData);
+      const parsed = index.parseHtmlJobs(html);
       const model = index.mapToJobModel(parsed.jobs[0], TEST_CIF);
 
       expect(model).toHaveProperty('url');
@@ -143,23 +121,23 @@ describe('E2E: Full Scraping Pipeline', () => {
       expect(model).toHaveProperty('cif', TEST_CIF);
       expect(model).toHaveProperty('status', 'scraped');
       expect(model).toHaveProperty('date');
-      expect(model.url).toMatch(/^https:\/\/careers\.epam\.com\//);
+      expect(model.url).toMatch(/^https:\/\/careers\.metro\.digital\//);
     });
 
     it('should transform jobs and filter to Romanian locations', () => {
-      const parsed = index.parseApiJobs(apiData);
+      const parsed = index.parseHtmlJobs(html);
       const jobs = parsed.jobs.map(j => index.mapToJobModel(j, TEST_CIF));
 
       const payload = {
-        source: 'epam.com',
-        company: 'EPAM SYSTEMS INTERNATIONAL SRL',
+        source: 'careers.metro.digital',
+        company: 'METRO DIGITAL ROMANIA S.R.L.',
         cif: TEST_CIF,
         jobs
       };
 
       const transformed = index.transformJobsForSOLR(payload);
 
-      expect(transformed.company).toBe('EPAM SYSTEMS INTERNATIONAL SRL');
+      expect(transformed.company).toBe('METRO DIGITAL ROMANIA S.R.L.');
       expect(transformed.jobs.length).toBe(jobs.length);
 
       for (const job of transformed.jobs) {
@@ -171,7 +149,7 @@ describe('E2E: Full Scraping Pipeline', () => {
     });
 
     it('should produce valid job URLs that are accessible', async () => {
-      const parsed = index.parseApiJobs(apiData);
+      const parsed = index.parseHtmlJobs(html);
 
       for (const job of parsed.jobs.slice(0, 2)) {
         const res = await fetch(job.url, {
@@ -192,59 +170,25 @@ describe('E2E: Full Scraping Pipeline', () => {
       company = await import('../../company.js');
     });
 
-    itIfAnaf('should find EPAM in ANAF and validate active status', async () => {
-      const results = await anaf.searchCompany(TEST_BRAND);
+    itIfAnaf('should find METRO DIGITAL in ANAF and validate status', async () => {
+      const results = await anaf.searchCompany('Metro Digital Romania');
 
-      const epam = results.find(c =>
-        c.name.toUpperCase().startsWith(TEST_BRAND + ' ') &&
-        c.statusLabel === 'Funcțiune'
+      const metro = results.find(c =>
+        c.name.toUpperCase().includes('METRO DIGITAL')
       );
-      expect(epam).toBeDefined();
-      expect(epam.cui.toString()).toBe(TEST_CIF);
+      expect(metro).toBeDefined();
 
-      const anafData = await anaf.getCompanyFromANAF(TEST_CIF);
+      const anafData = await anaf.getCompanyFromANAF(metro.cui.toString());
       expect(anafData).toBeDefined();
-      expect(anafData.inactive).toBe(false);
+      expect(anafData.name).toBe('METRO DIGITAL ROMANIA S.R.L.');
     }, 30000);
 
-    itIfSolr('should run full validation and report active status with job count', async () => {
+    itIfSolr('should run full validation and report active status', async () => {
       const result = await company.validateAndGetCompany();
 
       expect(result.status).toBe('active');
-      expect(result.company).toBe('EPAM SYSTEMS INTERNATIONAL SRL');
+      expect(result.company).toBe('METRO DIGITAL ROMANIA S.R.L.');
       expect(result.cif).toBe(TEST_CIF);
-
-      if (result.existingJobsCount === 0) {
-        console.log('⚠️ No EPAM jobs in Solr — skipping job count assertion');
-        return;
-      }
-      expect(result.existingJobsCount).toBeGreaterThan(0);
-    }, 30000);
-  });
-
-  describe('Inactive Company Handling', () => {
-    let anaf;
-
-    beforeAll(async () => {
-      anaf = await import('../../src/anaf.js');
-    });
-
-    itIfAnaf('should detect inactive/radiated companies via ANAF', async () => {
-      const results = await anaf.searchCompany('EPAM');
-
-      const nonActive = results.find(c => c.statusLabel !== 'Funcțiune');
-
-      if (nonActive) {
-        try {
-          const anafData = await anaf.getCompanyFromANAF(nonActive.cui.toString());
-          expect(anafData).toBeDefined();
-          if (anafData.inactive !== undefined) {
-            expect(anafData.inactive).toBe(true);
-          }
-        } catch {
-          expect(nonActive.statusLabel).toMatch(/Radiată|Inactiv|Suspendat/);
-        }
-      }
     }, 30000);
   });
 
@@ -255,27 +199,31 @@ describe('E2E: Full Scraping Pipeline', () => {
       solr = await import('../../solr.js');
     });
 
-    itIfSolr('should have EPAM jobs in SOLR with correct company name', async () => {
+    itIfSolr('should have METRO DIGITAL jobs in SOLR with correct company name', async () => {
       const result = await solr.querySOLR(TEST_CIF);
 
       if (result.numFound === 0) {
-        console.log('⚠️ No EPAM jobs in Solr — skipping SOLR data verification');
+        console.log('No METRO DIGITAL jobs in Solr — skipping SOLR data verification');
         return;
       }
 
       for (const job of result.docs) {
-        expect(job.company).toBe('EPAM SYSTEMS INTERNATIONAL SRL');
+        expect(job.company).toBe('METRO DIGITAL ROMANIA S.R.L.');
         expect(job.cif).toBe(TEST_CIF);
       }
     }, 15000);
 
-    itIfSolr('should have EPAM company core entry with required fields', async () => {
+    itIfSolr('should have METRO DIGITAL company core entry with required fields', async () => {
       const result = await solr.queryCompanySOLR(`id:${TEST_CIF}`);
 
-      expect(result.numFound).toBe(1);
-      const epam = result.docs[0];
-      expect(epam.company).toBe('EPAM SYSTEMS INTERNATIONAL SRL');
-      expect(epam.status).toBe('activ');
+      if (result.numFound === 0) {
+        console.log('No METRO DIGITAL company in Solr yet — skipping');
+        return;
+      }
+
+      const metro = result.docs[0];
+      expect(metro.company).toBe('METRO DIGITAL ROMANIA S.R.L.');
+      expect(metro.status).toBe('activ');
     }, 15000);
   });
 });

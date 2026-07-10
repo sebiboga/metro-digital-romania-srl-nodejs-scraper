@@ -376,7 +376,7 @@ async function runExtract(cif) {
 async function runCompanyQuery(args) {
   console.log("=== Query Company in SOLR ===\n");
   
-  const query = args[1] || "company:EPAM*";
+  const query = args[1] || "company:METRO*";
   console.log(`Query: ${query}`);
   
   const result = await queryCompanySOLR(query);

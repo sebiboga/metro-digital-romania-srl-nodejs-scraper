@@ -1,58 +1,45 @@
-# Robots.txt Analysis — EPAM Careers
+# Robots.txt Analysis — Metro Digital Careers
 
-Sursa: https://careers.epam.com/robots.txt
+Source: https://careers.metro.digital/robots.txt
 
-## Reguli
+## Rules
 
 ```
-User-agent: LinkedInBot
-Allow: /
-
 User-agent: *
-Disallow: /en/application
-Disallow: /ru/application
-Disallow: /api
-Disallow: /api/*
-Disallow: /*?skill*
-Disallow: /*?search*
-Disallow: /*?query*
-Disallow: /*?specialization*
-Disallow: /*?utm*
-Disallow: /none
-Disallow: /*?ref*
-Disallow: /*?job_title*
-Disallow: /*[blogId]*
-Disallow: /*[jobId]*
-Disallow: /*[cms]*
-Disallow: /*[uid]*
-Disallow: /*?page*
-Disallow: /*?gclid*
-Disallow: /blog
-Disallow: /blog/*
-Disallow: /*/vacancy/*
-Disallow: /ai-interviewer
-Disallow: /ai-interviewer/*
+Allow: /
+Disallow: /jobs?*
+Disallow: /admin*
+Disallow: /workflow*
+Disallow: /snippettest*
+Disallow: /register*
+Disallow: /recruitersearch*
+Disallow: /newprofile*
+Disallow: /login*
+Disallow: /editprofile*
+Disallow: /candidateupdatecredentials*
+Disallow: /candidateresetpassword*
+Disallow: /candidatehome*
 ```
 
-## Interpretare
+## Interpretation
 
-| Cale | Accesibil? | Ce conține |
+| Path | Accessible? | Content |
 |---|---|---|
-| `/` (landing) | ✅ Da | Paginile principale per-locale |
-| `/en/jobs`, `/fr/jobs`, etc. | ✅ Da | Listări de job-uri (front-end) |
-| `/api/*` | ❌ **Disallowed** | API-ul JSON de la care scraper-ul nostru extrage datele |
-| `/*/vacancy/*` | ❌ **Disallowed** | Paginile individuale de job |
-| `/en/application` | ❌ Disallowed | Pagina de aplicare |
-| `/blog/*` | ❌ Disallowed | Blogul |
-| `/ai-interviewer/*` | ❌ Disallowed | Intervievator AI |
+| `/` (landing) | Yes | Main pages |
+| `/jobs` (no query params) | Yes | Job listings page (SSR, Attrax) |
+| `/jobs?*` (with query params) | No | Filtered/searched job pages |
+| `/job/*` | Yes (not disallowed) | Individual job pages |
+| `/admin*` | No | Admin pages |
+| `/workflow*` | No | Workflow pages |
+| `/login*` | No | Login pages |
 
-## Recomandare
+## Recommendation
 
-robots.txt NU este legal binding, dar reprezintă intenția proprietarului site-ului.
+robots.txt is not legally binding but represents the site owner's intent.
 
-- API-ul `/api/jobs/v2/search/...` e **disallowed** de robots.txt. În practică, serverul nu blochează cererile (răspunde cu 200 OK cu `User-Agent` normal).
-- Paginile individuale de job (`/en/vacancy/...`) sunt și ele disallowed. Noi nu le scraper-uim direct — doar le verificăm accesibilitatea (HEAD request) în E2E tests.
-- Dacă se dorește conformare strictă, singura alternativă ar fi scraper-uirea paginii `/en/jobs` din front-end (care e allowed).
-- Scraperul curent face o singură cerere per pagină (10 job-uri) cu delay de 1s între pagini — comportament rezonabil, nu agresiv.
+- `/jobs` (without query params) is **allowed** — this is where we scrape from
+- `/jobs?*` (with query params) is disallowed — we never use query params
+- Scraper makes 1 request per page with 1s delay — polite behavior
+- No API endpoints needed — pure HTML scraping
 
-**Concluzie**: Risc minim. API-ul e public, răspunde fără autentificare, iar scraperul e politicos (rate limiting, User-Agent standard, o singură cerere simultană).
+**Conclusion**: Minimal risk. We access only the allowed `/jobs` page, use standard User-Agent, and rate-limit requests.

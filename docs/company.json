@@ -1,11 +1,10 @@
 {
-  "cif": "33159615",
-  "legalName": "EPAM SYSTEMS INTERNATIONAL SRL",
-  "brand": "EPAM",
-  "website": "https://www.epam.com",
-  "careerUrl": "https://careers.epam.com",
-  "apiBase": "https://careers.epam.com",
-  "apiCountryId": "8150000000000001155",
+  "cif": "43319098",
+  "legalName": "METRO DIGITAL ROMANIA S.R.L.",
+  "brand": "METRO DIGITAL",
+  "website": "https://metro.digital",
+  "careerUrl": "https://careers.metro.digital/jobs",
+  "apiBase": "https://careers.metro.digital",
   "defaultLocation": "București",
-  "scraperFile": "https://raw.githubusercontent.com/sebiboga/epam-systems-international-srl-nodejs-scraper/main/.github/workflows/job-seeker-ro-spider.yml"
+  "scraperFile": "https://raw.githubusercontent.com/sebiboga/metro-digital-romania-srl-nodejs-scraper/main/.github/workflows/job-seeker-ro-spider.yml"
 }

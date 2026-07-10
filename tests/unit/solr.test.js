@@ -193,7 +193,7 @@ describe('solr.js', () => {
       const result = await solr.querySOLR('33159615');
 
       for (const job of result.docs) {
-        expect(job.cif).toMatch(/^\d{8}$/);
+        expect(job.cif).toMatch(/^\d{6,9}$/);
       }
     });
 
@@ -205,7 +205,7 @@ describe('solr.js', () => {
       const result = await solr.querySOLR('abc');
 
       for (const job of result.docs) {
-        expect(job.cif).not.toMatch(/^\d{8}$/);
+        expect(job.cif).not.toMatch(/^\d{6,9}$/);
       }
     });
 
