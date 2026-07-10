@@ -153,7 +153,7 @@ describe('index.js Component Tests', () => {
       expect(result.jobs).toHaveLength(2);
       expect(result.total).toBe(17);
       expect(result.jobs[0].title).toBe('Platform Architect - Procurement');
-      expect(result.jobs[0].url).toBe('https://careers.digital/job/platform-architect-procurement-in-soseaua-pipera-43-bucuresti-jid-29901');
+      expect(result.jobs[0].url).toBe('https://careers.metro.digital/job/platform-architect-procurement-in-soseaua-pipera-43-bucuresti-jid-29901');
       expect(result.jobs[0].city).toBe('București');
       expect(result.jobs[0].workmode).toBe('hybrid');
     });
