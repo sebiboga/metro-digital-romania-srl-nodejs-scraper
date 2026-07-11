@@ -10,11 +10,18 @@
 | Location | PIPERA, 43, Bucureşti Sectorul 2, Bucureşti |
 | Website | [https://metro.digital](https://metro.digital) |
 | Careers | [https://careers.metro.digital/jobs](https://careers.metro.digital/jobs) |
-| Last Scraped | 2026-07-10 |
+| Last Scraped | 2026-07-11 |
 
-## Current Job Listings (17)
+## Current Job Listings (18)
 
-_Generated: 2026-07-10T13:01:49.458Z_
+_Generated: 2026-07-11T07:51:05.846Z_
+
+### Technical Architect- SAP S4/HANA FINANCE (m/f/d)
+
+- **URL:** [https://careers.metro.digital/job/technical-architect-sap-s4-hana-finance-m-f-d-in-schlueterstrasse-5-duesseldorf-jid-33230](https://careers.metro.digital/job/technical-architect-sap-s4-hana-finance-m-f-d-in-schlueterstrasse-5-duesseldorf-jid-33230)
+- **Work Mode:** hybrid
+- **Location:** România
+- **Status:** scraped
 
 ### Cloud Engineer – Cloud Foundation (m/f/d)
 
