@@ -10,11 +10,11 @@
 | Location | PIPERA, 43, Bucureşti Sectorul 2, Bucureşti |
 | Website | [https://metro.digital](https://metro.digital) |
 | Careers | [https://careers.metro.digital/jobs](https://careers.metro.digital/jobs) |
-| Last Scraped | 2026-07-11 |
+| Last Scraped | 2026-07-12 |
 
 ## Current Job Listings (18)
 
-_Generated: 2026-07-11T07:51:05.846Z_
+_Generated: 2026-07-12T08:12:44.306Z_
 
 ### Technical Architect- SAP S4/HANA FINANCE (m/f/d)
 
