@@ -10,11 +10,18 @@
 | Location | PIPERA, 43, Bucureşti Sectorul 2, Bucureşti |
 | Website | [https://metro.digital](https://metro.digital) |
 | Careers | [https://careers.metro.digital/jobs](https://careers.metro.digital/jobs) |
-| Last Scraped | 2026-07-14 |
+| Last Scraped | 2026-07-15 |
 
 ## Current Job Listings (18)
 
-_Generated: 2026-07-14T07:59:02.320Z_
+_Generated: 2026-07-15T08:03:56.718Z_
+
+### Platform Architect- Procurement (m/f/d)
+
+- **URL:** [https://careers.metro.digital/job/platform-architect-procurement-m-f-d-in-schlueterstrasse-5-duesseldorf-jid-29923](https://careers.metro.digital/job/platform-architect-procurement-m-f-d-in-schlueterstrasse-5-duesseldorf-jid-29923)
+- **Work Mode:** hybrid
+- **Location:** România
+- **Status:** scraped
 
 ### Technical Architect- SAP S4/HANA FINANCE (m/f/d)
 
@@ -40,13 +47,6 @@ _Generated: 2026-07-14T07:59:02.320Z_
 ### Program and Portfolio Manager – Transformation Office Transversal Team (m/f/d)
 
 - **URL:** [https://careers.metro.digital/job/program-and-portfolio-manager-transformation-office-transversal-team-m-f-d-in-schlueterstrasse-5-duesseldorf-jid-31099](https://careers.metro.digital/job/program-and-portfolio-manager-transformation-office-transversal-team-m-f-d-in-schlueterstrasse-5-duesseldorf-jid-31099)
-- **Work Mode:** hybrid
-- **Location:** România
-- **Status:** scraped
-
-### Platform Architect- Procurement (m/f/d)
-
-- **URL:** [https://careers.metro.digital/job/platform-architect-procurement-m-f-d-in-schlueterstrasse-5-duesseldorf-jid-29923](https://careers.metro.digital/job/platform-architect-procurement-m-f-d-in-schlueterstrasse-5-duesseldorf-jid-29923)
 - **Work Mode:** hybrid
 - **Location:** România
 - **Status:** scraped
