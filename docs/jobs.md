@@ -10,11 +10,18 @@
 | Location | PIPERA, 43, Bucureşti Sectorul 2, Bucureşti |
 | Website | [https://metro.digital](https://metro.digital) |
 | Careers | [https://careers.metro.digital/jobs](https://careers.metro.digital/jobs) |
-| Last Scraped | 2026-07-15 |
+| Last Scraped | 2026-07-16 |
 
-## Current Job Listings (18)
+## Current Job Listings (19)
 
-_Generated: 2026-07-15T08:03:56.718Z_
+_Generated: 2026-07-16T08:08:19.078Z_
+
+### Solution Expert – Own Brand Product Development
+
+- **URL:** [https://careers.metro.digital/job/solution-expert-own-brand-product-development-in-soseaua-pipera-43-bucuresti-jid-33307](https://careers.metro.digital/job/solution-expert-own-brand-product-development-in-soseaua-pipera-43-bucuresti-jid-33307)
+- **Work Mode:** hybrid
+- **Location:** București
+- **Status:** scraped
 
 ### Platform Architect- Procurement (m/f/d)
 
