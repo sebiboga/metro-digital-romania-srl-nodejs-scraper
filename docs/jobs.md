@@ -10,11 +10,18 @@
 | Location | PIPERA, 43, Bucureşti Sectorul 2, Bucureşti |
 | Website | [https://metro.digital](https://metro.digital) |
 | Careers | [https://careers.metro.digital/jobs](https://careers.metro.digital/jobs) |
-| Last Scraped | 2026-07-16 |
+| Last Scraped | 2026-07-17 |
 
-## Current Job Listings (19)
+## Current Job Listings (20)
 
-_Generated: 2026-07-16T08:08:19.078Z_
+_Generated: 2026-07-17T08:05:26.182Z_
+
+### IT Service Specialist - Foundation Support
+
+- **URL:** [https://careers.metro.digital/job/it-service-specialist-foundation-support-in-strada-ionescu-crum-brasov-jid-33330](https://careers.metro.digital/job/it-service-specialist-foundation-support-in-strada-ionescu-crum-brasov-jid-33330)
+- **Work Mode:** hybrid
+- **Location:** Brașov
+- **Status:** scraped
 
 ### Solution Expert – Own Brand Product Development
 
