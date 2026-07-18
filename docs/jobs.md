@@ -10,11 +10,11 @@
 | Location | PIPERA, 43, Bucureşti Sectorul 2, Bucureşti |
 | Website | [https://metro.digital](https://metro.digital) |
 | Careers | [https://careers.metro.digital/jobs](https://careers.metro.digital/jobs) |
-| Last Scraped | 2026-07-17 |
+| Last Scraped | 2026-07-18 |
 
 ## Current Job Listings (20)
 
-_Generated: 2026-07-17T08:05:26.182Z_
+_Generated: 2026-07-18T07:44:58.419Z_
 
 ### IT Service Specialist - Foundation Support
 
