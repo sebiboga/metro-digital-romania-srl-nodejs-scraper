@@ -10,11 +10,11 @@
 | Location | PIPERA, 43, Bucureşti Sectorul 2, Bucureşti |
 | Website | [https://metro.digital](https://metro.digital) |
 | Careers | [https://careers.metro.digital/jobs](https://careers.metro.digital/jobs) |
-| Last Scraped | 2026-07-21 |
+| Last Scraped | 2026-07-22 |
 
 ## Current Job Listings (19)
 
-_Generated: 2026-07-21T08:23:44.102Z_
+_Generated: 2026-07-22T08:24:03.180Z_
 
 ### Senior Vendor Manager (m/f/d)
 
