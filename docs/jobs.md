@@ -10,22 +10,22 @@
 | Location | PIPERA, 43, Bucureşti Sectorul 2, Bucureşti |
 | Website | [https://metro.digital](https://metro.digital) |
 | Careers | [https://careers.metro.digital/jobs](https://careers.metro.digital/jobs) |
-| Last Scraped | 2026-07-22 |
+| Last Scraped | 2026-07-23 |
 
 ## Current Job Listings (19)
 
-_Generated: 2026-07-22T08:24:03.180Z_
+_Generated: 2026-07-23T08:25:35.830Z_
 
-### Senior Vendor Manager (m/f/d)
+### Senior Licence Manager (m/f/d)
 
-- **URL:** [https://careers.metro.digital/job/senior-vendor-manager-m-f-d-in-schlueterstrasse-5-duesseldorf-jid-31117](https://careers.metro.digital/job/senior-vendor-manager-m-f-d-in-schlueterstrasse-5-duesseldorf-jid-31117)
+- **URL:** [https://careers.metro.digital/job/senior-licence-manager-m-f-d-in-schlueterstrasse-5-duesseldorf-jid-32004](https://careers.metro.digital/job/senior-licence-manager-m-f-d-in-schlueterstrasse-5-duesseldorf-jid-32004)
 - **Work Mode:** hybrid
 - **Location:** România
 - **Status:** scraped
 
-### Cloud Engineer – Cloud Foundation (m/f/d)
+### Senior Vendor Manager (m/f/d)
 
-- **URL:** [https://careers.metro.digital/job/cloud-engineer-cloud-foundation-m-f-d-in-schlueterstrasse-5-duesseldorf-jid-28655](https://careers.metro.digital/job/cloud-engineer-cloud-foundation-m-f-d-in-schlueterstrasse-5-duesseldorf-jid-28655)
+- **URL:** [https://careers.metro.digital/job/senior-vendor-manager-m-f-d-in-schlueterstrasse-5-duesseldorf-jid-31117](https://careers.metro.digital/job/senior-vendor-manager-m-f-d-in-schlueterstrasse-5-duesseldorf-jid-31117)
 - **Work Mode:** hybrid
 - **Location:** România
 - **Status:** scraped
