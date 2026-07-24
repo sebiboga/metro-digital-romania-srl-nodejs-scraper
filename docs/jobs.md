@@ -10,15 +10,22 @@
 | Location | PIPERA, 43, Bucureşti Sectorul 2, Bucureşti |
 | Website | [https://metro.digital](https://metro.digital) |
 | Careers | [https://careers.metro.digital/jobs](https://careers.metro.digital/jobs) |
-| Last Scraped | 2026-07-23 |
+| Last Scraped | 2026-07-24 |
 
-## Current Job Listings (19)
+## Current Job Listings (20)
 
-_Generated: 2026-07-23T08:25:35.830Z_
+_Generated: 2026-07-24T08:23:08.016Z_
 
-### Senior Licence Manager (m/f/d)
+### Solution Expert- Marketing platform (m/f/d)
 
-- **URL:** [https://careers.metro.digital/job/senior-licence-manager-m-f-d-in-schlueterstrasse-5-duesseldorf-jid-32004](https://careers.metro.digital/job/senior-licence-manager-m-f-d-in-schlueterstrasse-5-duesseldorf-jid-32004)
+- **URL:** [https://careers.metro.digital/job/solution-expert-marketing-platform-m-f-d-in-schlueterstrasse-5-duesseldorf-jid-33482](https://careers.metro.digital/job/solution-expert-marketing-platform-m-f-d-in-schlueterstrasse-5-duesseldorf-jid-33482)
+- **Work Mode:** hybrid
+- **Location:** România
+- **Status:** scraped
+
+### Cloud Engineer – Cloud Foundation (m/f/d)
+
+- **URL:** [https://careers.metro.digital/job/cloud-engineer-cloud-foundation-m-f-d-in-schlueterstrasse-5-duesseldorf-jid-28655](https://careers.metro.digital/job/cloud-engineer-cloud-foundation-m-f-d-in-schlueterstrasse-5-duesseldorf-jid-28655)
 - **Work Mode:** hybrid
 - **Location:** România
 - **Status:** scraped
