@@ -10,11 +10,11 @@
 | Location | PIPERA, 43, Bucureşti Sectorul 2, Bucureşti |
 | Website | [https://metro.digital](https://metro.digital) |
 | Careers | [https://careers.metro.digital/jobs](https://careers.metro.digital/jobs) |
-| Last Scraped | 2026-07-24 |
+| Last Scraped | 2026-07-25 |
 
 ## Current Job Listings (20)
 
-_Generated: 2026-07-24T08:23:08.016Z_
+_Generated: 2026-07-25T08:02:34.538Z_
 
 ### Solution Expert- Marketing platform (m/f/d)
 
