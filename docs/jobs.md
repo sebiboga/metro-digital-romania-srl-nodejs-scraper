@@ -10,22 +10,22 @@
 | Location | PIPERA, 43, Bucureşti Sectorul 2, Bucureşti |
 | Website | [https://metro.digital](https://metro.digital) |
 | Careers | [https://careers.metro.digital/jobs](https://careers.metro.digital/jobs) |
-| Last Scraped | 2026-07-26 |
+| Last Scraped | 2026-07-27 |
 
 ## Current Job Listings (20)
 
-_Generated: 2026-07-26T08:22:35.514Z_
+_Generated: 2026-07-27T09:44:55.228Z_
 
-### Solution Expert- Marketing platform (m/f/d)
+### Squad Lead – Upstream Supply Chain (Ordering) (m/f/d)
 
-- **URL:** [https://careers.metro.digital/job/solution-expert-marketing-platform-m-f-d-in-schlueterstrasse-5-duesseldorf-jid-33482](https://careers.metro.digital/job/solution-expert-marketing-platform-m-f-d-in-schlueterstrasse-5-duesseldorf-jid-33482)
+- **URL:** [https://careers.metro.digital/job/squad-lead-upstream-supply-chain-ordering-m-f-d-in-schlueterstrasse-5-duesseldorf-jid-33513](https://careers.metro.digital/job/squad-lead-upstream-supply-chain-ordering-m-f-d-in-schlueterstrasse-5-duesseldorf-jid-33513)
 - **Work Mode:** hybrid
 - **Location:** România
 - **Status:** scraped
 
-### Cloud Engineer – Cloud Foundation (m/f/d)
+### Solution Expert- Marketing platform (m/f/d)
 
-- **URL:** [https://careers.metro.digital/job/cloud-engineer-cloud-foundation-m-f-d-in-schlueterstrasse-5-duesseldorf-jid-28655](https://careers.metro.digital/job/cloud-engineer-cloud-foundation-m-f-d-in-schlueterstrasse-5-duesseldorf-jid-28655)
+- **URL:** [https://careers.metro.digital/job/solution-expert-marketing-platform-m-f-d-in-schlueterstrasse-5-duesseldorf-jid-33482](https://careers.metro.digital/job/solution-expert-marketing-platform-m-f-d-in-schlueterstrasse-5-duesseldorf-jid-33482)
 - **Work Mode:** hybrid
 - **Location:** România
 - **Status:** scraped
