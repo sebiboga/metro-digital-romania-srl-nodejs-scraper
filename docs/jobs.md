@@ -10,11 +10,32 @@
 | Location | PIPERA, 43, Bucureşti Sectorul 2, Bucureşti |
 | Website | [https://metro.digital](https://metro.digital) |
 | Careers | [https://careers.metro.digital/jobs](https://careers.metro.digital/jobs) |
-| Last Scraped | 2026-07-27 |
+| Last Scraped | 2026-07-28 |
 
-## Current Job Listings (20)
+## Current Job Listings (22)
 
-_Generated: 2026-07-27T09:44:55.228Z_
+_Generated: 2026-07-28T08:29:30.209Z_
+
+### Squad Lead for ITSM & Country Business Services
+
+- **URL:** [https://careers.metro.digital/job/squad-lead-for-itsm-and-country-business-services-in-schlueterstrasse-5-duesseldorf-jid-33545](https://careers.metro.digital/job/squad-lead-for-itsm-and-country-business-services-in-schlueterstrasse-5-duesseldorf-jid-33545)
+- **Work Mode:** hybrid
+- **Location:** România
+- **Status:** scraped
+
+### Squad Lead for ITSM & Country Business Services
+
+- **URL:** [https://careers.metro.digital/job/squad-lead-for-itsm-and-country-business-services-in-soseaua-pipera-43-bucuresti-jid-33544](https://careers.metro.digital/job/squad-lead-for-itsm-and-country-business-services-in-soseaua-pipera-43-bucuresti-jid-33544)
+- **Work Mode:** hybrid
+- **Location:** București
+- **Status:** scraped
+
+### Solution Expert for Supply Chain Service & Assurance Chapter
+
+- **URL:** [https://careers.metro.digital/job/solution-expert-for-supply-chain-service-and-assurance-chapter-in-strada-teodor-mihali-62-cluj-napoca-jid-33522](https://careers.metro.digital/job/solution-expert-for-supply-chain-service-and-assurance-chapter-in-strada-teodor-mihali-62-cluj-napoca-jid-33522)
+- **Work Mode:** hybrid
+- **Location:** Cluj-Napoca
+- **Status:** scraped
 
 ### Squad Lead – Upstream Supply Chain (Ordering) (m/f/d)
 
@@ -103,13 +124,6 @@ _Generated: 2026-07-27T09:44:55.228Z_
 ### Full Stack Engineer (GitHub, Typescript) - CDQ
 
 - **URL:** [https://careers.metro.digital/job/full-stack-engineer-github-typescript-cdq-in-soseaua-pipera-43-bucuresti-jid-32992](https://careers.metro.digital/job/full-stack-engineer-github-typescript-cdq-in-soseaua-pipera-43-bucuresti-jid-32992)
-- **Work Mode:** hybrid
-- **Location:** București
-- **Status:** scraped
-
-### PMO & Team Assistant Data & AI
-
-- **URL:** [https://careers.metro.digital/job/pmo-and-team-assistant-data-and-ai-in-soseaua-pipera-43-bucuresti-jid-32176](https://careers.metro.digital/job/pmo-and-team-assistant-data-and-ai-in-soseaua-pipera-43-bucuresti-jid-32176)
 - **Work Mode:** hybrid
 - **Location:** București
 - **Status:** scraped
