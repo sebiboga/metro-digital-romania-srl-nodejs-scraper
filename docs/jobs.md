@@ -10,39 +10,11 @@
 | Location | PIPERA, 43, Bucureşti Sectorul 2, Bucureşti |
 | Website | [https://metro.digital](https://metro.digital) |
 | Careers | [https://careers.metro.digital/jobs](https://careers.metro.digital/jobs) |
-| Last Scraped | 2026-07-28 |
+| Last Scraped | 2026-07-29 |
 
-## Current Job Listings (22)
+## Current Job Listings (23)
 
-_Generated: 2026-07-28T08:29:30.209Z_
-
-### Squad Lead for ITSM & Country Business Services
-
-- **URL:** [https://careers.metro.digital/job/squad-lead-for-itsm-and-country-business-services-in-schlueterstrasse-5-duesseldorf-jid-33545](https://careers.metro.digital/job/squad-lead-for-itsm-and-country-business-services-in-schlueterstrasse-5-duesseldorf-jid-33545)
-- **Work Mode:** hybrid
-- **Location:** România
-- **Status:** scraped
-
-### Squad Lead for ITSM & Country Business Services
-
-- **URL:** [https://careers.metro.digital/job/squad-lead-for-itsm-and-country-business-services-in-soseaua-pipera-43-bucuresti-jid-33544](https://careers.metro.digital/job/squad-lead-for-itsm-and-country-business-services-in-soseaua-pipera-43-bucuresti-jid-33544)
-- **Work Mode:** hybrid
-- **Location:** București
-- **Status:** scraped
-
-### Solution Expert for Supply Chain Service & Assurance Chapter
-
-- **URL:** [https://careers.metro.digital/job/solution-expert-for-supply-chain-service-and-assurance-chapter-in-strada-teodor-mihali-62-cluj-napoca-jid-33522](https://careers.metro.digital/job/solution-expert-for-supply-chain-service-and-assurance-chapter-in-strada-teodor-mihali-62-cluj-napoca-jid-33522)
-- **Work Mode:** hybrid
-- **Location:** Cluj-Napoca
-- **Status:** scraped
-
-### Squad Lead – Upstream Supply Chain (Ordering) (m/f/d)
-
-- **URL:** [https://careers.metro.digital/job/squad-lead-upstream-supply-chain-ordering-m-f-d-in-schlueterstrasse-5-duesseldorf-jid-33513](https://careers.metro.digital/job/squad-lead-upstream-supply-chain-ordering-m-f-d-in-schlueterstrasse-5-duesseldorf-jid-33513)
-- **Work Mode:** hybrid
-- **Location:** România
-- **Status:** scraped
+_Generated: 2026-07-29T08:35:45.511Z_
 
 ### Solution Expert- Marketing platform (m/f/d)
 
@@ -58,6 +30,13 @@ _Generated: 2026-07-28T08:29:30.209Z_
 - **Location:** România
 - **Status:** scraped
 
+### Senior Financial Consultant (m/f/d)
+
+- **URL:** [https://careers.metro.digital/job/senior-financial-consultant-m-f-d-in-schlueterstrasse-5-duesseldorf-jid-32931](https://careers.metro.digital/job/senior-financial-consultant-m-f-d-in-schlueterstrasse-5-duesseldorf-jid-32931)
+- **Work Mode:** hybrid
+- **Location:** România
+- **Status:** scraped
+
 ### Platform Architect- Procurement (m/f/d)
 
 - **URL:** [https://careers.metro.digital/job/platform-architect-procurement-m-f-d-in-schlueterstrasse-5-duesseldorf-jid-29923](https://careers.metro.digital/job/platform-architect-procurement-m-f-d-in-schlueterstrasse-5-duesseldorf-jid-29923)
@@ -65,9 +44,9 @@ _Generated: 2026-07-28T08:29:30.209Z_
 - **Location:** România
 - **Status:** scraped
 
-### Senior Financial Consultant (m/f/d)
+### Program and Portfolio Manager – Transformation Office Transversal Team (m/f/d)
 
-- **URL:** [https://careers.metro.digital/job/senior-financial-consultant-m-f-d-in-schlueterstrasse-5-duesseldorf-jid-32931](https://careers.metro.digital/job/senior-financial-consultant-m-f-d-in-schlueterstrasse-5-duesseldorf-jid-32931)
+- **URL:** [https://careers.metro.digital/job/program-and-portfolio-manager-transformation-office-transversal-team-m-f-d-in-schlueterstrasse-5-duesseldorf-jid-31099](https://careers.metro.digital/job/program-and-portfolio-manager-transformation-office-transversal-team-m-f-d-in-schlueterstrasse-5-duesseldorf-jid-31099)
 - **Work Mode:** hybrid
 - **Location:** România
 - **Status:** scraped
@@ -79,9 +58,37 @@ _Generated: 2026-07-28T08:29:30.209Z_
 - **Location:** România
 - **Status:** scraped
 
-### Program and Portfolio Manager – Transformation Office Transversal Team (m/f/d)
+### Squad Lead – Upstream Supply Chain (Ordering) (m/f/d)
 
-- **URL:** [https://careers.metro.digital/job/program-and-portfolio-manager-transformation-office-transversal-team-m-f-d-in-schlueterstrasse-5-duesseldorf-jid-31099](https://careers.metro.digital/job/program-and-portfolio-manager-transformation-office-transversal-team-m-f-d-in-schlueterstrasse-5-duesseldorf-jid-31099)
+- **URL:** [https://careers.metro.digital/job/squad-lead-upstream-supply-chain-ordering-m-f-d-in-strada-ionescu-crum-brasov-jid-33561](https://careers.metro.digital/job/squad-lead-upstream-supply-chain-ordering-m-f-d-in-strada-ionescu-crum-brasov-jid-33561)
+- **Work Mode:** hybrid
+- **Location:** Brașov
+- **Status:** scraped
+
+### Skill Chapter Lead – Operations and Checkout Engineering
+
+- **URL:** [https://careers.metro.digital/job/skill-chapter-lead-operations-and-checkout-engineering-in-soseaua-pipera-43-bucuresti-jid-33564](https://careers.metro.digital/job/skill-chapter-lead-operations-and-checkout-engineering-in-soseaua-pipera-43-bucuresti-jid-33564)
+- **Work Mode:** hybrid
+- **Location:** București
+- **Status:** scraped
+
+### Solution Expert for MMS HO / Assortment Management
+
+- **URL:** [https://careers.metro.digital/job/solution-expert-for-mms-ho-assortment-management-in-soseaua-pipera-43-bucuresti-jid-33562](https://careers.metro.digital/job/solution-expert-for-mms-ho-assortment-management-in-soseaua-pipera-43-bucuresti-jid-33562)
+- **Work Mode:** hybrid
+- **Location:** București
+- **Status:** scraped
+
+### Solution Expert for Supply Chain Service & Assurance Chapter
+
+- **URL:** [https://careers.metro.digital/job/solution-expert-for-supply-chain-service-and-assurance-chapter-in-strada-teodor-mihali-62-cluj-napoca-jid-33522](https://careers.metro.digital/job/solution-expert-for-supply-chain-service-and-assurance-chapter-in-strada-teodor-mihali-62-cluj-napoca-jid-33522)
+- **Work Mode:** hybrid
+- **Location:** Cluj-Napoca
+- **Status:** scraped
+
+### Squad Lead – Upstream Supply Chain (Ordering) (m/f/d)
+
+- **URL:** [https://careers.metro.digital/job/squad-lead-upstream-supply-chain-ordering-m-f-d-in-schlueterstrasse-5-duesseldorf-jid-33513](https://careers.metro.digital/job/squad-lead-upstream-supply-chain-ordering-m-f-d-in-schlueterstrasse-5-duesseldorf-jid-33513)
 - **Work Mode:** hybrid
 - **Location:** România
 - **Status:** scraped
