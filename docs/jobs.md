@@ -10,11 +10,11 @@
 | Location | PIPERA, 43, Bucureşti Sectorul 2, Bucureşti |
 | Website | [https://metro.digital](https://metro.digital) |
 | Careers | [https://careers.metro.digital/jobs](https://careers.metro.digital/jobs) |
-| Last Scraped | 2026-07-29 |
+| Last Scraped | 2026-07-30 |
 
-## Current Job Listings (23)
+## Current Job Listings (21)
 
-_Generated: 2026-07-29T08:35:45.511Z_
+_Generated: 2026-07-30T08:21:24.263Z_
 
 ### Solution Expert- Marketing platform (m/f/d)
 
@@ -154,20 +154,6 @@ _Generated: 2026-07-29T08:35:45.511Z_
 - **URL:** [https://careers.metro.digital/job/full-stack-engineer-coupon-and-voucher-in-the-marketing-platform-in-soseaua-pipera-nr-43-bucuresti-jid-29219](https://careers.metro.digital/job/full-stack-engineer-coupon-and-voucher-in-the-marketing-platform-in-soseaua-pipera-nr-43-bucuresti-jid-29219)
 - **Work Mode:** hybrid
 - **Location:** București
-- **Status:** scraped
-
-### Technical Architect – Google Cloud Platform
-
-- **URL:** [https://careers.metro.digital/job/technical-architect-google-cloud-platform-in-soseaua-pipera-43-bucuresti-jid-29898](https://careers.metro.digital/job/technical-architect-google-cloud-platform-in-soseaua-pipera-43-bucuresti-jid-29898)
-- **Work Mode:** hybrid
-- **Location:** București
-- **Status:** scraped
-
-### Technical Architect – Google Cloud Platform (m/f/d)
-
-- **URL:** [https://careers.metro.digital/job/technical-architect-google-cloud-platform-m-f-d-in-schlueterstrasse-5-duesseldorf-jid-29897](https://careers.metro.digital/job/technical-architect-google-cloud-platform-m-f-d-in-schlueterstrasse-5-duesseldorf-jid-29897)
-- **Work Mode:** hybrid
-- **Location:** România
 - **Status:** scraped
 
 ### Java Backend Engineer - M.Fulfill Pick&Pack
