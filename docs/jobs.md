@@ -10,11 +10,18 @@
 | Location | PIPERA, 43, Bucureşti Sectorul 2, Bucureşti |
 | Website | [https://metro.digital](https://metro.digital) |
 | Careers | [https://careers.metro.digital/jobs](https://careers.metro.digital/jobs) |
-| Last Scraped | 2026-07-30 |
+| Last Scraped | 2026-07-31 |
 
 ## Current Job Listings (21)
 
-_Generated: 2026-07-30T08:21:24.263Z_
+_Generated: 2026-07-31T08:45:50.936Z_
+
+### Squad Lead – Upstream Supply Chain (Ordering) (m/f/d)
+
+- **URL:** [https://careers.metro.digital/job/squad-lead-upstream-supply-chain-ordering-m-f-d-in-schlueterstrasse-5-duesseldorf-jid-33513](https://careers.metro.digital/job/squad-lead-upstream-supply-chain-ordering-m-f-d-in-schlueterstrasse-5-duesseldorf-jid-33513)
+- **Work Mode:** hybrid
+- **Location:** România
+- **Status:** scraped
 
 ### Solution Expert- Marketing platform (m/f/d)
 
@@ -84,13 +91,6 @@ _Generated: 2026-07-30T08:21:24.263Z_
 - **URL:** [https://careers.metro.digital/job/solution-expert-for-supply-chain-service-and-assurance-chapter-in-strada-teodor-mihali-62-cluj-napoca-jid-33522](https://careers.metro.digital/job/solution-expert-for-supply-chain-service-and-assurance-chapter-in-strada-teodor-mihali-62-cluj-napoca-jid-33522)
 - **Work Mode:** hybrid
 - **Location:** Cluj-Napoca
-- **Status:** scraped
-
-### Squad Lead – Upstream Supply Chain (Ordering) (m/f/d)
-
-- **URL:** [https://careers.metro.digital/job/squad-lead-upstream-supply-chain-ordering-m-f-d-in-schlueterstrasse-5-duesseldorf-jid-33513](https://careers.metro.digital/job/squad-lead-upstream-supply-chain-ordering-m-f-d-in-schlueterstrasse-5-duesseldorf-jid-33513)
-- **Work Mode:** hybrid
-- **Location:** România
 - **Status:** scraped
 
 ### Service Manager – Continuous Delivery & Quality
