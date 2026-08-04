@@ -10,11 +10,18 @@
 | Location | PIPERA, 43, Bucureşti Sectorul 2, Bucureşti |
 | Website | [https://metro.digital](https://metro.digital) |
 | Careers | [https://careers.metro.digital/jobs](https://careers.metro.digital/jobs) |
-| Last Scraped | 2026-08-03 |
+| Last Scraped | 2026-08-04 |
 
 ## Current Job Listings (20)
 
-_Generated: 2026-08-03T09:38:23.221Z_
+_Generated: 2026-08-04T08:32:25.479Z_
+
+### Java Backend Engineer - M.Fulfill Pick&Pack
+
+- **URL:** [https://careers.metro.digital/job/java-backend-engineer-m-fulfill-pick-and-pack-in-strada-teodor-mihali-62-cluj-napoca-jid-30939](https://careers.metro.digital/job/java-backend-engineer-m-fulfill-pick-and-pack-in-strada-teodor-mihali-62-cluj-napoca-jid-30939)
+- **Work Mode:** hybrid
+- **Location:** Cluj-Napoca
+- **Status:** scraped
 
 ### Solution Expert- Marketing platform (m/f/d)
 
@@ -147,11 +154,4 @@ _Generated: 2026-08-03T09:38:23.221Z_
 - **URL:** [https://careers.metro.digital/job/full-stack-engineer-coupon-and-voucher-in-the-marketing-platform-in-soseaua-pipera-nr-43-bucuresti-jid-29219](https://careers.metro.digital/job/full-stack-engineer-coupon-and-voucher-in-the-marketing-platform-in-soseaua-pipera-nr-43-bucuresti-jid-29219)
 - **Work Mode:** hybrid
 - **Location:** București
-- **Status:** scraped
-
-### Java Backend Engineer - M.Fulfill Pick&Pack
-
-- **URL:** [https://careers.metro.digital/job/java-backend-engineer-m-fulfill-pick-and-pack-in-strada-teodor-mihali-62-cluj-napoca-jid-30939](https://careers.metro.digital/job/java-backend-engineer-m-fulfill-pick-and-pack-in-strada-teodor-mihali-62-cluj-napoca-jid-30939)
-- **Work Mode:** hybrid
-- **Location:** Cluj-Napoca
 - **Status:** scraped
