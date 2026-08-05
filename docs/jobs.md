@@ -10,59 +10,52 @@
 | Location | PIPERA, 43, Bucureşti Sectorul 2, Bucureşti |
 | Website | [https://metro.digital](https://metro.digital) |
 | Careers | [https://careers.metro.digital/jobs](https://careers.metro.digital/jobs) |
-| Last Scraped | 2026-08-04 |
+| Last Scraped | 2026-08-05 |
 
-## Current Job Listings (20)
+## Current Job Listings (19)
 
-_Generated: 2026-08-04T08:32:25.479Z_
-
-### Java Backend Engineer - M.Fulfill Pick&Pack
-
-- **URL:** [https://careers.metro.digital/job/java-backend-engineer-m-fulfill-pick-and-pack-in-strada-teodor-mihali-62-cluj-napoca-jid-30939](https://careers.metro.digital/job/java-backend-engineer-m-fulfill-pick-and-pack-in-strada-teodor-mihali-62-cluj-napoca-jid-30939)
-- **Work Mode:** hybrid
-- **Location:** Cluj-Napoca
-- **Status:** scraped
-
-### Solution Expert- Marketing platform (m/f/d)
-
-- **URL:** [https://careers.metro.digital/job/solution-expert-marketing-platform-m-f-d-in-schlueterstrasse-5-duesseldorf-jid-33482](https://careers.metro.digital/job/solution-expert-marketing-platform-m-f-d-in-schlueterstrasse-5-duesseldorf-jid-33482)
-- **Work Mode:** hybrid
-- **Location:** România
-- **Status:** scraped
-
-### Senior Vendor Manager (m/f/d)
-
-- **URL:** [https://careers.metro.digital/job/senior-vendor-manager-m-f-d-in-schlueterstrasse-5-duesseldorf-jid-31117](https://careers.metro.digital/job/senior-vendor-manager-m-f-d-in-schlueterstrasse-5-duesseldorf-jid-31117)
-- **Work Mode:** hybrid
-- **Location:** România
-- **Status:** scraped
+_Generated: 2026-08-05T08:31:02.367Z_
 
 ### Senior Financial Consultant (m/f/d)
 
 - **URL:** [https://careers.metro.digital/job/senior-financial-consultant-m-f-d-in-schlueterstrasse-5-duesseldorf-jid-32931](https://careers.metro.digital/job/senior-financial-consultant-m-f-d-in-schlueterstrasse-5-duesseldorf-jid-32931)
-- **Work Mode:** hybrid
+- **Work Mode:** on-site
 - **Location:** România
 - **Status:** scraped
 
 ### Platform Architect- Procurement (m/f/d)
 
 - **URL:** [https://careers.metro.digital/job/platform-architect-procurement-m-f-d-in-schlueterstrasse-5-duesseldorf-jid-29923](https://careers.metro.digital/job/platform-architect-procurement-m-f-d-in-schlueterstrasse-5-duesseldorf-jid-29923)
-- **Work Mode:** hybrid
+- **Work Mode:** on-site
 - **Location:** România
 - **Status:** scraped
 
-### Program and Portfolio Manager – Transformation Office Transversal Team (m/f/d)
+### Solution Expert- Marketing platform (m/f/d)
 
-- **URL:** [https://careers.metro.digital/job/program-and-portfolio-manager-transformation-office-transversal-team-m-f-d-in-schlueterstrasse-5-duesseldorf-jid-31099](https://careers.metro.digital/job/program-and-portfolio-manager-transformation-office-transversal-team-m-f-d-in-schlueterstrasse-5-duesseldorf-jid-31099)
-- **Work Mode:** hybrid
+- **URL:** [https://careers.metro.digital/job/solution-expert-marketing-platform-m-f-d-in-schlueterstrasse-5-duesseldorf-jid-33482](https://careers.metro.digital/job/solution-expert-marketing-platform-m-f-d-in-schlueterstrasse-5-duesseldorf-jid-33482)
+- **Work Mode:** on-site
 - **Location:** România
 - **Status:** scraped
 
 ### Technical Architect- SAP S4/HANA FINANCE (m/f/d)
 
 - **URL:** [https://careers.metro.digital/job/technical-architect-sap-s4-hana-finance-m-f-d-in-schlueterstrasse-5-duesseldorf-jid-33230](https://careers.metro.digital/job/technical-architect-sap-s4-hana-finance-m-f-d-in-schlueterstrasse-5-duesseldorf-jid-33230)
-- **Work Mode:** hybrid
+- **Work Mode:** on-site
 - **Location:** România
+- **Status:** scraped
+
+### Program and Portfolio Manager – Transformation Office Transversal Team (m/f/d)
+
+- **URL:** [https://careers.metro.digital/job/program-and-portfolio-manager-transformation-office-transversal-team-m-f-d-in-schlueterstrasse-5-duesseldorf-jid-31099](https://careers.metro.digital/job/program-and-portfolio-manager-transformation-office-transversal-team-m-f-d-in-schlueterstrasse-5-duesseldorf-jid-31099)
+- **Work Mode:** on-site
+- **Location:** România
+- **Status:** scraped
+
+### Java Backend Engineer - M.Fulfill Pick&Pack
+
+- **URL:** [https://careers.metro.digital/job/java-backend-engineer-m-fulfill-pick-and-pack-in-strada-teodor-mihali-62-cluj-napoca-jid-30939](https://careers.metro.digital/job/java-backend-engineer-m-fulfill-pick-and-pack-in-strada-teodor-mihali-62-cluj-napoca-jid-30939)
+- **Work Mode:** hybrid
+- **Location:** Cluj-Napoca
 - **Status:** scraped
 
 ### Squad Lead – Upstream Supply Chain (Ordering) (m/f/d)
