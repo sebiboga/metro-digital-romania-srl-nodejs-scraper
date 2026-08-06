@@ -10,11 +10,18 @@
 | Location | PIPERA, 43, Bucureşti Sectorul 2, Bucureşti |
 | Website | [https://metro.digital](https://metro.digital) |
 | Careers | [https://careers.metro.digital/jobs](https://careers.metro.digital/jobs) |
-| Last Scraped | 2026-08-05 |
+| Last Scraped | 2026-08-06 |
 
-## Current Job Listings (19)
+## Current Job Listings (20)
 
-_Generated: 2026-08-05T08:31:02.367Z_
+_Generated: 2026-08-06T08:31:15.845Z_
+
+### Squad Lead for ITSM & Country Business Services
+
+- **URL:** [https://careers.metro.digital/job/squad-lead-for-itsm-and-country-business-services-in-soseaua-pipera-43-bucuresti-jid-33545](https://careers.metro.digital/job/squad-lead-for-itsm-and-country-business-services-in-soseaua-pipera-43-bucuresti-jid-33545)
+- **Work Mode:** hybrid
+- **Location:** București
+- **Status:** scraped
 
 ### Senior Financial Consultant (m/f/d)
 
