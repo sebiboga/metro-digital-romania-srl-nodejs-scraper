@@ -10,11 +10,11 @@
 | Location | PIPERA, 43, Bucureşti Sectorul 2, Bucureşti |
 | Website | [https://metro.digital](https://metro.digital) |
 | Careers | [https://careers.metro.digital/jobs](https://careers.metro.digital/jobs) |
-| Last Scraped | 2026-08-06 |
+| Last Scraped | 2026-08-07 |
 
 ## Current Job Listings (20)
 
-_Generated: 2026-08-06T08:31:15.845Z_
+_Generated: 2026-08-07T07:10:39.739Z_
 
 ### Squad Lead for ITSM & Country Business Services
 
