@@ -10,11 +10,25 @@
 | Location | PIPERA, 43, Bucureşti Sectorul 2, Bucureşti |
 | Website | [https://metro.digital](https://metro.digital) |
 | Careers | [https://careers.metro.digital/jobs](https://careers.metro.digital/jobs) |
-| Last Scraped | 2026-08-07 |
+| Last Scraped | 2026-08-08 |
 
-## Current Job Listings (20)
+## Current Job Listings (22)
 
-_Generated: 2026-08-07T07:10:39.739Z_
+_Generated: 2026-08-08T06:46:32.362Z_
+
+### Project Manager - Project & Program Management
+
+- **URL:** [https://careers.metro.digital/job/project-manager-project-and-program-management-in-soseaua-pipera-43-bucuresti-jid-33806](https://careers.metro.digital/job/project-manager-project-and-program-management-in-soseaua-pipera-43-bucuresti-jid-33806)
+- **Work Mode:** hybrid
+- **Location:** București
+- **Status:** scraped
+
+### Skill Chapter Lead – Global Helpdesk
+
+- **URL:** [https://careers.metro.digital/job/skill-chapter-lead-global-helpdesk-in-strada-ionescu-crum-brasov-jid-33794](https://careers.metro.digital/job/skill-chapter-lead-global-helpdesk-in-strada-ionescu-crum-brasov-jid-33794)
+- **Work Mode:** hybrid
+- **Location:** Brașov
+- **Status:** scraped
 
 ### Squad Lead for ITSM & Country Business Services
 
